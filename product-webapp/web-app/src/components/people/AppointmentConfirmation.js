@@ -131,7 +131,7 @@ function Confirmation() {
       });
     } else {
       // fetch('http://localhost:8080/slot-booking-service/api/v1/slot',
-      fetch('http://54.224.141.31:8080/slot-booking-service/api/v1/slot',
+      fetch('http://34.236.214.213:8080/slot-booking-service/api/v1/slot',
         {
           headers: {
             'Content-Type': 'application/json',
@@ -163,7 +163,7 @@ function Confirmation() {
 
   function updateStatusAsBooked(slotId) {
     // let url = "http://localhost:8080/slot-booking-service/api/v1/slot/status/" + slotId + "?status=BOOKEED";
-    let url = "http://54.224.141.31:8080/slot-booking-service/api/v1/slot/status/" + slotId + "?status=BOOKEED";
+    let url = "http://34.236.214.213:8080/slot-booking-service/api/v1/slot/status/" + slotId + "?status=BOOKEED";
     return fetch(url,
       {
         headers: {

@@ -17,7 +17,7 @@ function ReportGeneration() {
     const emailPass = localStorage.getItem("centerEmail");
 
     const getreportDetails = () => {
-        return fetch("http://54.224.141.31:8080/vaccination-center-service/api/v1/slots/stats/" + emailPass, {
+        return fetch("http://34.236.214.213:8080/vaccination-center-service/api/v1/slots/stats/" + emailPass, {
             headers: {
                 'Content-Type': 'application/json',
                 'Accept': 'application/json'
